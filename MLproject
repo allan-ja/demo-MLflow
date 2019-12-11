@@ -1,0 +1,9 @@
+name: demo-mlflow
+
+conda_env: conda.yml
+
+entry_points:
+  main:
+    parameters:
+      max_depth: {type: int, default: 1}
+    command: "python decision_tree_mlflow.py {max_depth}"
