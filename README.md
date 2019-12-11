@@ -1,2 +1,2 @@
-# demo-MLflow
+# demo-mlflow
 Demo for MLflow
